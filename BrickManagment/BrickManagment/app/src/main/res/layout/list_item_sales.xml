@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:padding="10dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/imv"
+            android:background="@drawable/sun"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value Text"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_marginLeft="130dp"
+            android:textStyle="bold"
+            android:id="@+id/tvvalue"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:id="@+id/tvday"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:id="@+id/tvlocation"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:id="@+id/tvdegree"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:id="@+id/tvidd"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bricks_klin.brickmanagment">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Pather"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RawMaterial"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Workers"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FragmentTwo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Register"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddMaterial"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddKlin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddEmployee"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddBricks"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WeatherReport"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BhattaList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmployeeList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BrickRecord"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Purchases"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sales"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmpView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SaleView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PurchaseView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BhattaView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddPurchases"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddSales"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserVerification"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KachiBricks"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BrickMenu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuRecord"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MarkAttendance"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ViewAttendance"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

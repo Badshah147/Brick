@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#451C6D"
+    tools:context="com.bricks_klin.brickmanagment.AddKlin">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:text="بھٹا درج کریں"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:text="مالک کا نام"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/tvname"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="15dp"
+                android:text="مالک کا نام"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="22dp"
+                android:text=":نام لکھیں"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                android:id="@+id/edtklin_name"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:backgroundTint="#ffffff"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:maxLength="20" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="22dp"
+                android:text=":ایڈریس درج کریں"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="11dp"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:id="@+id/edtklin_addr"
+                android:backgroundTint="#ffffff"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:maxLength="20" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnadd_klin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="درج کریں"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="54dp"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>

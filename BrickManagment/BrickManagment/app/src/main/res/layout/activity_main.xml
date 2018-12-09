@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bricks_klin.brickmanagment.MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="4">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/rawMaterialButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/raw_material" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="120dp"
+                android:text="خام مال"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/workersButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/workers" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="120dp"
+                android:text="کارکن"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/bricksButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/bricks" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:text="اینٹوں کا اسٹاک"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        -
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:text="بھٹا درج کریں"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/order" />
+
+        </android.support.v7.widget.CardView>
+
+
+        -
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/order" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="120dp"
+                android:text=" خریداری"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/dues" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="120dp"
+                android:text="فروخت اور"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.CardView>
+
+
+        -
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/record" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:text="ریکارڈ"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@mipmap/logout" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:text="Logout"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>
